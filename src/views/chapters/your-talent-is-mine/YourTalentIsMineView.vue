@@ -41,7 +41,7 @@ import MangaLayout from "@/layouts/MangaLayout.vue";
               class="border border-white p-2 w-72 text-pink-300 m-2 rounded-md"
             >
               <li>
-                <RouterLink href="#"
+                <RouterLink :to="{ name: 'your-talent-mine' }" href="#"
                   >Chapter 3</RouterLink
                 >
               </li>
@@ -50,7 +50,7 @@ import MangaLayout from "@/layouts/MangaLayout.vue";
               class="border border-white p-2 w-72 text-pink-400 m-2 rounded-md"
             >
               <li>
-                <RouterLink href="#"
+                <RouterLink :to="{ name: 'your-talent-mine' }" href="#"
                   >Chapter 4</RouterLink
                 >
               </li>
@@ -59,7 +59,7 @@ import MangaLayout from "@/layouts/MangaLayout.vue";
               class="border border-white p-2 w-72 text-pink-500 m-2 rounded-md"
             >
               <li>
-                <RouterLink href="#"
+                <RouterLink :to="{ name: 'your-talent-mine' }" href="#"
                   >Chapter 5</RouterLink
                 >
               </li>
@@ -68,7 +68,7 @@ import MangaLayout from "@/layouts/MangaLayout.vue";
               class="border border-white p-2 w-72 text-pink-600 m-2 rounded-md"
             >
               <li>
-                <RouterLink href="#"
+                <RouterLink :to="{ name: 'your-talent-mine' }" href="#"
                   >Chapter 6</RouterLink
                 >
               </li>

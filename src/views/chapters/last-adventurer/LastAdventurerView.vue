@@ -36,28 +36,28 @@ import MangaLayout from "@/layouts/MangaLayout.vue";
             </ul>
             <ul class="border border-white p-2 w-72 text-pink-300 m-2 rounded-md">
                 <li>
-                  <RouterLink href="#"
+                  <RouterLink :to="{ name: 'last-adventurer' }" href="#"
                     >Chapter 3</RouterLink
                   >
                 </li>
             </ul>
             <ul class="border border-white p-2 w-72 text-pink-400 m-2 rounded-md">
                 <li>
-                  <RouterLink href="#"
+                  <RouterLink :to="{ name: 'last-adventurer' }" href="#"
                     >Chapter 4</RouterLink
                   >
                 </li>
             </ul>
             <ul class="border border-white p-2 w-72 text-pink-500 m-2 rounded-md">
                 <li>
-                  <RouterLink href="#"
+                  <RouterLink :to="{ name: 'last-adventurer' }" href="#"
                     >Chapter 5</RouterLink
                   >
                 </li>
             </ul>
             <ul class="border border-white p-2 w-72 text-pink-600 m-2 rounded-md">
                 <li>
-                  <RouterLink href="#"
+                  <RouterLink :to="{ name: 'last-adventurer' }" href="#"
                     >Chapter 6</RouterLink
                   >
                 </li>
